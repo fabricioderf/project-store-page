@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Fabricio Bezerra" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>VOX Roupas</title>
+  </head>
+  <body>
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="nav-container">
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#">Calçados</a></li>
+            <li><a href="#">Camisetas</a></li>
+            <li><a href="#">Acessórios</a></li>
+          </ul>
+        </nav>
+        <a href="index.html"
+          ><img id="logo-loja" src="img/logo.png" alt="Loja de Roupas"
+        /></a>
+        <div class="header-icons">
+          <div class="icon search-icon">
+            <a href="#"><i class="fas fa-search"></i></a>
+          </div>
+          <div class="icon cart-icon">
+            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Produto -->
+    <div class="product-container">
+      <div class="product-image">
+        <img src="img/produto.png" alt="Camisa" />
+      </div>
+      <div class="product-details">
+        <h1 class="product-title">Camiseta Gola Polo Algodão Piqué</h1>
+
+        <div class="product-meta">
+          <div class="product-rating-and-reviews">
+            <div class="product-rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <span class="reviews-count">93 avaliações</span>
+            </div>
+          </div>
+
+          <p class="product-price">
+            <span class="style">$</span> 99<span class="style">,00</span>
+          </p>
+
+          <div class="product-colors">
+            <h2>Cores disponíveis</h2>
+            <ul class="color-list">
+              <li class="color-option" data-color="Dark Navy"></li>
+              <li class="color-option" data-color="Black"></li>
+              <li class="color-option" data-color="White"></li>
+              <li class="color-option" data-color="Grey"></li>
+            </ul>
+          </div>
+
+          <div class="product-sizes">
+            <h2>Selecione o tamanho</h2>
+            <select name="sizes" id="select-size">
+              <option value="small">P</option>
+              <option value="medium">M</option>
+              <option value="large">G</option>
+              <option value="extra-large">XG</option>
+            </select>
+          </div>
+          <button class="add-cart-btn">Adicionar ao carrinho</button>
+        </div>
+        <div class="produtc-description">
+          <h2>Detalhes do Produto</h2>
+          <p>Camisa de alta qualidade, feita com material nobre e importado.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Rodapé -->
+    <footer class="footerbg">
+      <div class="transparency-section">
+        <div class="transparency-box">
+          <h3>Transparência Total</h3>
+          <p>
+            Compreender e valorizar a importância de nossa vestimenta é
+            fundamental no aprendizado de viver com menos. Quanto mais sabemos,
+            melhores decisões fazemos, mais valorizamos o que temos, e como
+            resultado - menos necessitaremos.
+          </p>
+        </div>
+        <div class="transparency-box">
+          <h3>Custo de Produção</h3>
+          <p>Detalhes todos os custos que temos para criar o produto.</p>
+          <a href="#">Ver detalhamento de custos</a>
+        </div>
+        <div class="transparency-box">
+          <h3>Rastreabilidade</h3>
+          <p>Saiba de onde vem o material para as suas roupas.</p>
+          <a href="#">Mostrar a origem dos produtos</a>
+        </div>
+        <div class="transparency-box">
+          <h3>Impacto de CO2</h3>
+          <p>Veja a redução de impacto ambiental que tivemos no ano de 2024.</p>
+          <a href="#">Mostrar o estudo</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
